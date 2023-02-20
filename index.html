@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="This page was made for learning new skills, used some new features, write some JS tricks and it is as it is."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/icon64.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>PROJECT Solid</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"> <img class="logo" alt="Solid logo" src="img/logo.png" /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#plan">Workout plan</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try it now</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              All progress takes place outside the comfort zone.
+            </h1>
+            <p class="hero-description">
+              “Your health account, your bank account, they are the same thing.
+              The more you put in, the more you can take out.” - Jack LaLanne
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm">Sign up now</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="customers">
+              <div class="customer-imgs">
+                <img src="img/customers/customer1.jpg" alt="customer photo" />
+                <img src="img/customers/customer2.jpg" alt="customer photo" />
+                <img src="img/customers/customer3.jpg" alt="customer photo" />
+                <img src="img/customers/customer4.jpg" alt="customer photo" />
+                <img src="img/customers/customer5.jpg" alt="customer photo" />
+                <img src="img/customers/customer6.jpg" alt="customer photo" />
+              </div>
+              <p class="customer-text">We have <span>100,000+</span> members</p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/gymsolid2.png"
+              class="hero-img"
+              alt="work hard in gym"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="img/featuredlogos/adidaslogo.png" alt="adidas logo" />
+            <img src="img/featuredlogos/nikelogo.png" alt="nike logo" />
+            <img src="img/featuredlogos/jordanlogo.png" alt="jordan logo" />
+            <img
+              src="img/featuredlogos/newbalancelogo.png"
+              alt="newbalance logo"
+            />
+            <img src="img/featuredlogos/pumalogo.png" alt="puma logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container center-text">
+          <span class="subheading">How It Works</span>
+          <h2 class="heading-secondary">
+            Your daily workout program in your Phone
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- SCR1 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Programs by <span>World-Class Trainers</span>
+            </h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+              ante, dapibus in, viverra quis, feugiat a,
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/programs.png"
+              class="step-img"
+              alt="iPhone app programs screen"
+            />
+          </div>
+          <!-- SCR2 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/athome-workounts.png"
+              class="step-img"
+              alt="At home workouts"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              <span>At-Home Workouts</span> for All Levels
+            </h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+              ante, dapibus in, viverra quis, feugiat a,
+            </p>
+          </div>
+          <!-- SCR3 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary"><span>185+</span> Free Workouts</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+              ante, dapibus in, viverra quis, feugiat a,
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/alllevelworkouts.png"
+              class="step-img"
+              alt="All level workouts"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-plan" id="plan">
+        <div class="container center-text">
+          <span class="subheading">Workout Plan</span>
+          <h2 class="heading-secondary">Workout of the day goes here</h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="plan">
+            <img
+              src="img/plan/workoutweek2.png"
+              class="plan-img"
+              alt="workout plan"
+            />
+            <div class="plan-content">
+              <div class="plan-tags">
+                <span class="tag tag--beginner">Beginner</span>
+              </div>
+              <p class="plan-title">WARM UP</p>
+              <ul class="plan-attributes">
+                <li class="plan-attribute">
+                  <ion-icon
+                    class="plan-icon"
+                    name="chevron-down-circle-outline"
+                  ></ion-icon>
+                  <span><strong>50+</strong> hours</span>
+                </li>
+                <li class="plan-attribute">
+                  <ion-icon class="plan-icon" name="flame-outline"></ion-icon>
+                  <span>Cardio</span>
+                </li>
+                <li class="plan-attribute">
+                  <ion-icon class="plan-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (866)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan">
+            <img
+              src="img/plan/workoutweek.jpg"
+              class="plan-img"
+              alt="workout plan"
+            />
+            <div class="plan-content">
+              <div class="plan-tags">
+                <span class="tag tag--intermediate">Intermediate</span>
+                <span class="tag tag--pro">PRO</span>
+              </div>
+              <p class="plan-title">HARDCORE</p>
+              <ul class="plan-attributes">
+                <li class="plan-attribute">
+                  <ion-icon
+                    class="plan-icon"
+                    name="chevron-down-circle-outline"
+                  ></ion-icon>
+                  <span><strong>120+</strong> hours</span>
+                </li>
+                <li class="plan-attribute">
+                  <ion-icon class="plan-icon" name="flame-outline"></ion-icon>
+                  <span>Strength, Crossfit</span>
+                </li>
+                <li class="plan-attribute">
+                  <ion-icon class="plan-icon" name="star-outline"></ion-icon>
+                  <span><strong>5.0</strong> rating (999+)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="offer">
+            <h3 class="heading-tertiary">What we offer:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>24/7 GYMFree</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Diets</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Fit consultation</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Cardio dance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Action sports</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Chisel it</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>The RIDE</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Body BURN</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>1on1 Training</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-offers">
+          <a href="#pricing" class="link">See all programs &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you cant go back</h2>
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="photo of customer"
+                src="img/customers/testi1.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Pri cu prima paulo, perfecto petentium cu pri. His ex vidit
+                legere singulis, at mel modo esse, iuvaret moderatius incorrupte
+                mea cu. Eos ne saepe suavitate, doming putent quo id.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Lisa Kane</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="photo of customer"
+                src="img/customers/testi2.jpeg"
+              />
+              <blockquote class="testimonial-text">
+                Nam vidit eleifend adipiscing ut, est cu blandit deseruisse. Id
+                solum saepe saperet has, illud mundi fierent vis eu. Omnes
+                facilisis sit no, ius ea molestie voluptatibus, fierent ponderum
+                te vim.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dwayne Scholes</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="photo of customer"
+                src="img/customers/testi3.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Audiam accommodare vix at, id vis dico comprehensam. Cu sit
+                porro labitur. Per cu saepe lucilius, te diceret nominavi vis.
+                Nec oratio epicuri prodesset et, has ex eirmod invidunt
+                similique.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Lara Croft</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="photo of customer"
+                src="img/customers/testi4.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Et his quod putent quodsi, wisi luptatum tractatos ad duo. Id
+                qui postea labore semper, cu alii modus tamquam quo. Sea ei hinc
+                ocurreret, autem voluptua et sed, ne decore intellegebat has.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Matt Daymon</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/motivation/1.jpg" alt="photo" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/2.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/3.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/4.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/5.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/6.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/7.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/8.jpg" alt="photo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/motivation/9.jpg" alt="photo" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">What we offer</h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">WARM UP</p>
+              <p class="plan-price"><span>$</span>99</p>
+              <p $10 class="plan-text">$10 per workout</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Video guided workouts</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Custom meal plans</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Weight Loss or Muscle Gain</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon red-one"
+                  name="close-outline"
+                ></ion-icon
+                ><span>24/7 GYM Access</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon red-one"
+                  name="close-outline"
+                ></ion-icon
+                ><span>24/7 consultation</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Sign up now</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">HARDCORE</p>
+              <p class="plan-price"><span>$</span>199</p>
+              <p class="plan-text">$15 per workout</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Video guided workouts</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Custom meal plans</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Weight Loss or Muscle Gain</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>24/7 GYM Access</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>24/7 consultation</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Sign up now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Include all taxes. Cancel it anytime.
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="accessibility-outline"
+            ></ion-icon>
+            <p class="feature-title">Aerobics</p>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="bicycle-outline"></ion-icon>
+            <p class="feature-title">Cardio</p>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="color-filter-outline"
+            ></ion-icon>
+            <p class="feature-title">Strength</p>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="globe-outline"></ion-icon>
+            <p class="feature-title">Balance</p>
+            <p class="feature-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">FREE 1-Day trial program</h2>
+              <p class="cta-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa.
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name:</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Davy Jones"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address:</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear about us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="internet">Internet</option>
+                    <option value="social">Social</option>
+                    <option value="magazine">Magazine</option>
+                    <option value="podcast">Podcast</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="CTA form img"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Solid logo" src="img/logo.png"
+          /></a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2023</span> by .SOLID
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">3968 Melville Street, GA 38301</p>
+            <p>
+              <a class="footer-link" href="tel:995731-519-2544"
+                >(+995)731-519-2544</a
+              ><br />
+              <a class="footer-link" href="mailto:info@teamsolid.com"
+                >info@teamsolid.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign In</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Worldwide</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+            <li><a class="footer-link" href="#">Lorem ipsum</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
